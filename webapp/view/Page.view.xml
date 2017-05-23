@@ -1,0 +1,111 @@
+<mvc:View controllerName="rimRob.controller.Page" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page showHeader="false" enableScrolling="false">
+		<VBox class="topBar">
+			<Image id="img1" alt="alttextimage" src="image/Itelligence_logo.png" class="img1"/>
+			<Label text="GERÇEK ZAMANLI ROBOT VERİLERİ" class="classTitle"></Label>
+		</VBox>
+		<HBox class="panel">
+			<Panel>
+				<GenericTile header="Motor" subheader="Durum" frameType="OneByOne" press="press">
+					<tileContent>
+						<TileContent unit="" footer=""  class="classTile">
+							<content>
+								<NumericContent value="" scale="" valueColor="Good" id="idMotor"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+				<GenericTile header="Acil Durum" subheader="Durum" frameType="OneByOne" class="tileLayout2" press="press">
+					<tileContent>
+						<TileContent unit="" footer="">
+							<content>
+								<NumericContent value="" scale="" valueColor="Good" id="idEmergency"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+				<GenericTile header="Auto Control" subheader="Durum" frameType="OneByOne" class="tileLayout1" press="press">
+					<tileContent>
+						<TileContent unit="" footer="">
+							<content>
+								<NumericContent value="" scale="" valueColor="Good" id="idAuto"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+				<GenericTile header="Cpu Fan Uyarısı" subheader="Durum" frameType="OneByOne" class="tileLayout2" press="press">
+					<tileContent>
+						<TileContent unit="" footer="">
+							<content>
+								<NumericContent value="" scale="" valueColor="Good" id="idCPU"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+				<GenericTile header="Sıcaklık Uyarısı" subheader="Durum" frameType="OneByOne" class="tileLayout1" press="press">
+					<tileContent>
+						<TileContent unit="" footer="">
+							<content>
+								<NumericContent value="" scale="" valueColor="Good" id="idTemp"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+			</Panel>
+		</HBox>
+		<HBox class="panel">
+			<Panel>
+				<GenericTile header="Smb Şarj Uyarısı" subheader="Durum" frameType="OneByOne" class="tileLayout2" press="press">
+					<tileContent>
+						<TileContent unit="" footer="">
+							<content>
+								<NumericContent value="" scale="" valueColor="Good" id="idCharge"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+				<GenericTile header="Robot Hızı" subheader="" frameType="OneByOne" class="tileLayout1" press="press">
+					<tileContent>
+						<TileContent unit="" footer="">
+							<content>
+								<NumericContent value="" scale="" valueColor="Critical" id="idSpeed" class="classNum"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+					<GenericTile header="Toplam Verilen Çikolata Sayısı" subheader="" frameType="OneByOne" class="tileLayout1" press="press">
+					<tileContent>
+						<TileContent unit="" footer="">
+							<content>
+								<NumericContent value="" scale="" valueColor="Critical" id="idTotal" class="classNum"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+				<GenericTile header="Renk" subheader="" frameType="OneByOne" class="tileLayout2" press="press">
+					<tileContent>
+						<TileContent unit="" footer="" id="idColor">
+							<content>
+								<NumericContent value="" scale="" valueColor="Critical" id="idColorVis" class="classNum"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+				<GenericTile header="Robotun Yaptığı İş" subheader="" frameType="OneByOne" class="tileLayout2" press="press">
+					<tileContent>
+						<TileContent unit="" footer="" id="idOpe">
+							<content>
+								<NumericContent value="" scale="" valueColor="Critical" id="idOpeVis" class="classNum"/>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+			</Panel>
+		</HBox>
+		<HBox class="panel">
+			<Panel>
+				<html:div class="graph"></html:div>
+			</Panel>
+		</HBox>
+	</Page>
+</mvc:View>

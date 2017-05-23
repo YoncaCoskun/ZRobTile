@@ -1,0 +1,127 @@
+/* Enter your custom styles here */
+
+/* Enter your custom styles here */
+
+.sapMPage>section {
+    background-color: #E8E7E7 !important;
+}
+
+.img1 {
+    width: 25% !important;
+    padding-top: 2% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.classTitle {
+    color: #D40032 !important;
+    font-size: xx-large !important;
+    font-weight: bold !important;
+    text-align: left !important;
+}
+
+.classLabel {
+    color: #716B68 !important;
+    line-height: 3rem;
+    margin-left: 0.94rem;
+    min-width: 3.8rem;
+}
+
+@media (max-width: 858px) {
+    .classTitle {
+        font-size: 90% !important;
+    }
+    .img1 {
+        width: 50% !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media (max-width: 330px) {
+    .img1 {
+        width: 50% !important;
+        margin-right: 0px !important;
+    }
+    .sapMImg {
+        width: 20%;
+        margin-right: 25px;
+    }
+}
+
+.topBar {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.dataBox {
+    height: 50px;
+    width: 170px;
+}
+
+.classLabelRight {
+    margin-left: -20px;
+}
+
+.graph .axis {
+    stroke-width: 1;
+}
+
+.graph .axis .tick line {
+    stroke: black;
+    
+}
+
+.graph .axis .tick text {
+    fill: black;
+    font-size: 0.7em;
+}
+
+.graph .axis .domain {
+    fill: none;
+    stroke: black;
+}
+
+.graph .group {
+    fill: none;
+    stroke: black;
+    stroke-width: 1.5;
+}
+.sapMGT {
+    margin: 10px !important;
+}
+.sapMGT.OneByOne {
+    width: 10rem !important;
+    height: 10rem !important;
+
+}
+.sapMNCValueScr {
+    text-align: center;
+    padding-left: 48px !important;
+    font-size: 20px !important;
+    padding-top: 22px !important;
+}
+.sapMPanelContent {
+    /* padding: 1rem; */
+    padding: 0px !important;
+
+}
+.panel{
+	text-align: center !important;
+    display: block !important;
+}
+.sapMGTSubHdrTxt {
+    text-align: left !important;
+}
+.sapMTile {
+    width: 11rem !important;
+    height: 11rem !important;
+}
+.sapMTileCntFtrTxt {
+    font-size: 0.87rem !important;
+    height: 45% !important;
+    padding-right: 5px !important;
+}
+.sapMStdTileInfo {
+     margin-top: 0 !important;
+    margin-right: 30px !important;
+}
